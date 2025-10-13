@@ -37,7 +37,7 @@ export function Atuacao() {
 
   return (
     <div
-      className="bg-gradient-to-br from-[#1B263B] to-[#2C3E50]  w-full"
+      className="bg-gradient-to-br from-[#1B263B] to-[#2C3E50]  w-full "
       id="area"
     >
       <h2 className="text-white md:text-3xl text-2xl text-center font-bold pt-5">
@@ -46,7 +46,7 @@ export function Atuacao() {
 
       {/* Seção com animação de entrada em sequência */}
       <motion.section
-        className="w-full md:h-screen py-8 px-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+        className="w-full md:h-300 py-8 px-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}

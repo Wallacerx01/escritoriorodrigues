@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function Sobre() {
   return (
-    <div className="bg-[#DBDBDB]">
+    <div className="bg-[#DBDBDB] ">
       <h2 className="text-[#0D1B2A] md:text-3xl text-2xl text-center font-bold pt-5">
         Especialistas
       </h2>

@@ -3,13 +3,13 @@ import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <footer className="bg-[#0D1B2A] scroll-smooth" id="footer">
-      <section className="flex justify-around items-center center ">
-        <div className="text-white flex flex-col">
+    <footer className="bg-[#0D1B2A] w-full h-auto" id="footer">
+      <section className="flex flex-col md:flex-row justify-around items-center center ">
+        <div className="text-white flex flex-col ">
           <h3 className="text-[#DBDBDB] font-medium text-2xl my-3 text-center">
             Serviços
           </h3>
-          <ul className="flex flex-col gap-3 text-[15px] ">
+          <ul className="flex flex-col gap-3 text-[15px] items-center md:items-start">
             <li className="hover:scale-105  hover:shadow-lg transition-all duration-300">
               <a href="#area">Direito Trabalhista</a>
             </li>
@@ -31,10 +31,10 @@ export function Footer() {
           </ul>
         </div>
         <div className="text-white flex flex-col ">
-          <h3 className="text-[#DBDBDB] font-medium text-2xl my-3  text-center">
+          <h3 className="text-[#DBDBDB] font-medium text-2xl my-3 text-center">
             Contato
           </h3>
-          <ul className="flex flex-col gap-3 text-[15px] items-start ">
+          <ul className="flex flex-col gap-3 text-[15px] items-center md:items-start">
             <li className="hover:scale-105  hover:shadow-lg transition-all duration-300 flex justify-center items-center gap-1">
               <FaWhatsapp size={25} />
               <a href="https://wa.me/62996293233?text=Olá" target="_blank">
