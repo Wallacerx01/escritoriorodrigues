@@ -3,7 +3,7 @@ import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <footer className="bg-[#0D1B2A] w-full h-auto" id="footer">
+    <footer className="bg-[#0D1B2A] w-full h-auto pb-10" id="footer">
       <section className="flex flex-col md:flex-row justify-around items-center center ">
         <div className="text-white flex flex-col ">
           <h3 className="text-[#DBDBDB] font-medium text-2xl my-3 text-center">
@@ -53,7 +53,7 @@ export function Footer() {
             <li className="hover:scale-105  hover:shadow-lg transition-all duration-300 flex justify-center items-center gap-1">
               <CgMail size={25} />
               <a
-                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJvrbrNGMXgzwcHqfjqzPQcCBWXznZFwRVwWfVdqDXTwSbckGwBcdtkNWXwXljVpXMbqRQV"
+                href="mailto:brunnarodrigues.adv@gmail.com?subject=Olá&body=Olá,%20gostaria%20de%20entrar%20em%20contato."
                 target="_blank"
               >
                 brunnarodrigues.adv@gmail.com
@@ -62,7 +62,7 @@ export function Footer() {
             <li className="hover:scale-105  hover:shadow-lg transition-all duration-300 flex justify-center items-center gap-1">
               <CgMail size={25} />
               <a
-                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtVbDsnPVgLLMNxCxgnJWPkfvjNCtjNcrVfkRvRhlbQgcgZFKHwBlgPdCcFwsvqjlSZdSMFb"
+                href="mailto:julianorodrigues.adv@gmail.com?subject=Olá&body=Olá,%20gostaria%20de%20entrar%20em%20contato."
                 target="_blank"
               >
                 julianorodrigues.adv@gmail.com
@@ -81,7 +81,7 @@ export function Footer() {
         </div>
       </section>
       <hr className="text-gray-700 mt-5" />
-      <div className="flex justify-center items-center h-20 mx-1 mt-3">
+      <div className="flex justify-center items-center h-20 mx-1 mt-3 ">
         <span className="text-white text-center">
           @ 2025 Melquiades & Rodrigues - Todos os direitos reservados. Proibida
           a reprodução sem autorização. © Desenvolvido por
