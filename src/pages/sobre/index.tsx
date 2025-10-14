@@ -61,8 +61,9 @@ export function Sobre() {
               SÓCIO FUNDADOR
             </h4>
             <p className="text-gray-700 leading-relaxed md:text-xl md:max-w-11/12 md:text-center md:mt-10">
-              Graduado pela UNIFASAM-GO especialista em Direito Previdenciário,
-              Direito do Trabalho e Direito de família.
+              Graduado pela UNIFASAM-GO, Pós - graduado em Direito
+              previdenciário - pela unifaveni - MG, Direito do Trabalho e
+              Direito de família.
             </p>
             <div className="flex gap-1 justify-end items-center pt-2">
               <h4>OAB/GO Nº 63.901</h4>

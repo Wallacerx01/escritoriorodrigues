@@ -3,6 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 import { Atuacao } from "../../pages/atuacao";
 import { Sobre } from "../../pages/sobre";
+import { Mapa } from "../../components/mapa";
 
 export function Home() {
   return (
@@ -58,6 +59,7 @@ export function Home() {
       </main>
       <Sobre />
       <Atuacao />
+      <Mapa />
     </div>
   );
 }

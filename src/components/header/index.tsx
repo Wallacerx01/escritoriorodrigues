@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo from "../../assets/logo-1.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
@@ -9,13 +8,13 @@ export function Header() {
 
   return (
     <header className="flex bg-gradient-to-br from-[#1B263B] to-[#2C3E50]  w-full md:h-40 h-30 md:justify-around items-center justify-between">
-      <Link to="/">
+      <a href="#inicio">
         <img
-          className="md:h-30 w-auto h-30 hover:scale-110 duration-200"
+          className="md:h-30 w-auto h-20 hover:scale-110 duration-200"
           src={logo}
           alt="logo do escritorio "
         />
-      </Link>
+      </a>
       <nav className="hidden md:block">
         <ul className="flex gap-10 font-medium text-white text-xl">
           <li className="hover:text-[#DBDBDB] hover:scale-110  hover:shadow-lg transition-all duration-300">
