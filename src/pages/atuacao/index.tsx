@@ -73,7 +73,7 @@ export function Atuacao() {
               visible: { opacity: 1, y: 0 },
             }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="w-full md:w-80 lg:w-80 m-5 border border-[#1B263B] bg-[#0D1B2A]/60 backdrop-blur-sm hover:bg-[#0D1B2A]/80 transition-all duration-300 rounded-xl p-6 text-white shadow-md hover:shadow-xl"
+            className="w-full md:w-96 lg:w-96 m-5 border border-[#1B263B] bg-[#0D1B2A]/60 backdrop-blur-sm hover:bg-[#0D1B2A]/80 transition-all duration-300 rounded-xl p-6 text-white shadow-md hover:shadow-xl"
           >
             <h2 className="font-bold text-2xl text-center mb-4 text-[#DBDBDB] tracking-wide">
               {area.titulo}
