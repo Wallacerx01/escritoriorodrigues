@@ -81,7 +81,7 @@ export function Home() {
                 exit={{ opacity: 0, x: -50, scale: 0.95 }}
                 transition={{ duration: 0.8 }}
                 className="bg-[#0D1B2A] rounded-md p-3 flex flex-col items-center justify-start
-             w-full max-w-[420px] sm:max-w-full min-h-[650px] sm:min-h-[500px] shadow-lg overflow-hidden"
+             w-full max-w-[420px] sm:max-w-full min-h-[420px] sm:min-h-[420px] shadow-lg overflow-hidden"
               >
                 <img
                   src={atual.imagem}

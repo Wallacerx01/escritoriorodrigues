@@ -43,7 +43,7 @@ export function Atuacao() {
 
   return (
     <div
-      className="bg-gradient-to-br from-[#1B263B] to-[#2C3E50]  w-full "
+      className="bg-gradient-to-br from-[#1B263B] to-[#2C3E50] w-full"
       id="area"
     >
       <h2 className="text-white md:text-3xl text-2xl text-center font-bold pt-5">
@@ -52,7 +52,7 @@ export function Atuacao() {
 
       {/* Seção com animação de entrada em sequência */}
       <motion.section
-        className="w-full md:h-300 py-8 px-5 grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+        className="w-full  py-8 px-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
@@ -73,7 +73,7 @@ export function Atuacao() {
               visible: { opacity: 1, y: 0 },
             }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className=" md:flex md:flex-col md:justify-center border border-[#1B263B] bg-[#0D1B2A]/60 backdrop-blur-sm hover:bg-[#0D1B2A]/80 transition-all duration-300 rounded-xl p-6 text-white shadow-md hover:shadow-xl"
+            className="w-full md:w-96 lg:w-96 2xl:w-[40rem] 2xl:h-[22rem] border border-[#1B263B] bg-[#0D1B2A]/60 backdrop-blur-sm hover:bg-[#0D1B2A]/80 transition-all duration-300 rounded-xl p-6 text-white shadow-md hover:shadow-xl"
           >
             <h2 className="font-bold text-2xl text-center mb-4 text-[#DBDBDB] tracking-wide">
               {area.titulo}
@@ -86,7 +86,7 @@ export function Atuacao() {
                 href={area.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-[#DBDBDB]  hover:bg-[#0D1B2A] hover:text-white text-[#0D1B2A] font-semibold px-5 py-2.5 rounded-md transition-transform duration-300 hover:scale-105 shadow-lg"
+                className="flex items-center gap-2 bg-[#DBDBDB] hover:bg-[#0D1B2A] hover:text-white text-[#0D1B2A] font-semibold px-5 py-2.5 rounded-md transition-transform duration-300 hover:scale-105 shadow-lg"
               >
                 <FaWhatsapp size={22} />
                 Saiba Mais
