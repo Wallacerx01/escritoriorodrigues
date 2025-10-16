@@ -80,6 +80,24 @@ export function Footer() {
           </ul>
         </div>
       </section>
+
+      <div className="flex flex-col justify-center items-center gap-7 pb-10 p-3 text-white">
+        <div className="flex flex-col">
+          <h3 className="text-[#DBDBDB] font-medium text-2xl my-3 text-center">
+            Endereço
+          </h3>
+          <a
+            href="https://maps.app.goo.gl/UQFwwBG5GNeLeUG4A"
+            target="_blank"
+            className="text-center"
+          >
+            <span className="text-center mt-5 text-xl hover:underline text-[16px]">
+              Rua 10, Quadra 02, Lote 05-B, Sala 01, Galeria 10, Conjunto
+              Uirapuru, Galeria 10. Senador Canedo - GO, CEP: 75261-211
+            </span>
+          </a>
+        </div>
+      </div>
       <hr className="text-gray-700 mt-5" />
       <div className="flex justify-center items-center h-20 mx-1 mt-3 ">
         <span className="text-white text-center">
