@@ -81,12 +81,12 @@ export function Home() {
                 exit={{ opacity: 0, x: -50, scale: 0.95 }}
                 transition={{ duration: 0.8 }}
                 className="bg-[#0D1B2A] rounded-md p-3 flex flex-col items-center justify-start
-             w-full max-w-[520px] sm:max-w-full min-h-[650px] sm:min-h-[500px] shadow-lg overflow-hidden"
+             w-full max-w-[420px] sm:max-w-full min-h-[650px] sm:min-h-[500px] shadow-lg overflow-hidden"
               >
                 <img
                   src={atual.imagem}
                   alt={atual.titulo}
-                  className="w-full h-[480px] sm:h-[400px] md:h-[380px] object-cover rounded-t-lg"
+                  className="w-full h-[320px] sm:h-[400px] md:h-[380px] object-cover rounded-t-lg"
                 />
 
                 <article className="flex flex-col items-center justify-center text-white mt-4 px-4">

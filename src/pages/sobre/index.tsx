@@ -51,7 +51,7 @@ export function Sobre() {
           <img
             src={juliano}
             alt="Foto do advogado Juliano"
-            className="w-60 h-60 md:w-100 md:h-120 object-cover rounded-xl border-4 border-[#0D1B2A]"
+            className="w-60 h-60 md:w-100 md:h-120 object-cover rounded-xl border-4 border-[#0D1B2A] "
           />
           <div className="text-center md:text-left">
             <h3 className="text-2xl md:text-3xl font-semibold text-[#0D1B2A] mb-3 md:text-center">
