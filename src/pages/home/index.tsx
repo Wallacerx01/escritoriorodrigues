@@ -19,13 +19,6 @@ import { Sobre } from "../../pages/sobre";
 export function Home() {
   const slides = [
     {
-      titulo: "Direito Previdenciário - Pensão por Morte",
-      descricao:
-        "Garantir o amparo financeiro após a perda de um ente querido é um direito. Estamos aqui para orientar cada passo do processo.",
-      imagem: pensaoMor,
-      link: "https://wa.me/62996293233?text=Olá, quero saber sobre Pensão por Morte.",
-    },
-    {
       titulo: "Direito de Família - Pensão Alimentícia",
       descricao:
         "Se você precisa receber ou regularizar a pensão alimentícia, conte com uma orientação jurídica clara e eficiente.",
@@ -87,6 +80,13 @@ export function Home() {
         "Defendemos seus direitos trabalhistas com seriedade e resultados. Seja rescisão, horas extras ou justa causa, estamos prontos para lutar por você.",
       imagem: carteira,
       link: "https://wa.me/62996293233?text=Olá, quero informações sobre Direitos Trabalhistas.",
+    },
+    {
+      titulo: "Direito Previdenciário - Pensão por Morte",
+      descricao:
+        "Garantir o amparo financeiro após a perda de um ente querido é um direito. Estamos aqui para orientar cada passo do processo.",
+      imagem: pensaoMor,
+      link: "https://wa.me/62996293233?text=Olá, quero saber sobre Pensão por Morte.",
     },
   ];
 

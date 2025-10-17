@@ -1,4 +1,4 @@
-import logo from "../../assets/logo-1.png";
+import logo from "../../assets/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
@@ -10,7 +10,7 @@ export function Header() {
     <header className="flex bg-gradient-to-br from-[#1B263B] to-[#2C3E50]  w-full md:h-40 h-30 md:justify-around items-center justify-between">
       <a href="#inicio">
         <img
-          className="md:h-30 w-auto h-20 hover:scale-110 duration-200"
+          className="md:h-40 w-auto h-20 hover:scale-110 duration-200"
           src={logo}
           alt="logo do escritorio "
         />
