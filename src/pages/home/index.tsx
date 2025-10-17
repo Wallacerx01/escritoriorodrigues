@@ -2,9 +2,16 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa";
 
-import doenca from "../../assets/pericia-med.jpg";
-import aposentadoria from "../../assets/brunna.png";
-import pensao from "../../assets/juliano.png";
+import agressao from "../../assets/img-home/agressao mulher maria penha domestica.jpeg";
+import autismo from "../../assets/img-home/autismo bpc.jpg";
+import auxAcidente from "../../assets/img-home/aux acidente.jpg";
+import auxDoenca from "../../assets/img-home/aux doença.jpg";
+import auxMaternidade from "../../assets/img-home/aux maternidade.jpg";
+import bpcIdoso from "../../assets/img-home/bpc idoso.jpg";
+import carteira from "../../assets/img-home/carteira-de-trabalho.jpg";
+import divorcio from "../../assets/img-home/divorcio.jpg";
+import pensaoAli from "../../assets/img-home/pensao alimenticia.png";
+import pensaoMor from "../../assets/img-home/pensao por morte.jpg";
 
 import { Atuacao } from "../../pages/atuacao";
 import { Sobre } from "../../pages/sobre";
@@ -12,25 +19,74 @@ import { Sobre } from "../../pages/sobre";
 export function Home() {
   const slides = [
     {
-      titulo: "Auxílio-Acidente",
+      titulo: "Direito Previdenciário - Pensão por Morte",
       descricao:
-        "Assessoria completa para solicitação de auxílio junto ao INSS, garantindo seus direitos com eficiência.",
-      imagem: doenca,
-      link: "https://wa.me/62996293233?text=Olá, quero saber sobre auxílio-acidente.",
+        "Garantir o amparo financeiro após a perda de um ente querido é um direito. Estamos aqui para orientar cada passo do processo.",
+      imagem: pensaoMor,
+      link: "https://wa.me/62996293233?text=Olá, quero saber sobre Pensão por Morte.",
     },
     {
-      titulo: "Aposentadoria por Idade",
+      titulo: "- Direito de Família- Pensão Alimentícia",
       descricao:
-        "Orientamos todo o processo para aposentadoria com tranquilidade e segurança.",
-      imagem: aposentadoria,
-      link: "https://wa.me/62996293233?text=Olá, quero informações sobre aposentadoria por idade.",
+        "Se você precisa receber ou regularizar a pensão alimentícia, conte com uma orientação jurídica clara e eficiente.",
+      imagem: pensaoAli,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre Pensão Alimentícia.",
     },
     {
-      titulo: "Pensão por Morte",
+      titulo: "Direito de Família - Divórcio",
       descricao:
-        "Apoio especializado para solicitação de pensão por morte e revisão de benefícios.",
-      imagem: pensao,
-      link: "https://wa.me/62996293233?text=Olá, quero informações sobre pensão por morte.",
+        "Está passando por um divórcio? Conte com uma advogada especializada para resolver tudo com agilidade, empatia e sigilo.",
+      imagem: divorcio,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre Divórcio.",
+    },
+    {
+      titulo: "Direito Criminal - Violência Doméstica",
+      descricao:
+        "Sofreu ou foi acusado(a) de violência doméstica? Tenha orientação jurídica imediata e defesa estratégica do seu lado. ",
+      imagem: agressao,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre Violência Doméstica.",
+    },
+    {
+      titulo: "Direito Previdenciário - Auxílio Maternidade",
+      descricao:
+        "Está grávida ou teve um bebê? Você pode ter direito ao auxílio maternidade, com apenas uma contribuição. Descubra agora como receber.",
+      imagem: auxMaternidade,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre Auxílio Maternidade.",
+    },
+    {
+      titulo: "Benefício Assistencial - BPC Idoso",
+      descricao:
+        "O BPC é um direito de quem trabalhou e merece viver com dignidade. Saiba agora como garantir o benefício para o idoso da sua família.",
+      imagem: bpcIdoso,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre BPC Idoso.",
+    },
+    {
+      titulo: "Benefício Previdenciário - Auxílio Acidente",
+      descricao:
+        "Sofreu um acidente e ficou com sequelas? Você pode ter direito ao Auxílio-Acidente do INSS, descubra agora se pode receber.",
+      imagem: auxAcidente,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre Auxílio Acidente.",
+    },
+    {
+      titulo: "Benefício Previdenciário - BPI/ Auxílio Doença",
+      descricao:
+        "Está afastado do trabalho e o INSS negou seu benefício? Saiba como garantir o seu direito ao Auxílio-Doença com segurança e rapidez. ( beneficio por incapacidade temporaria)",
+      imagem: auxDoenca,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre BPI/ Auxílio Doença.",
+    },
+    {
+      titulo: "Benefício Assistencial - BPC Autista",
+      descricao:
+        "Garantimos o acesso ao BPC/LOAS para pessoas com autismo. Entenda seus direitos e receba o benefício que a lei assegura. ",
+      imagem: autismo,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre BPC Autista.",
+    },
+    {
+      titulo: "Direitos Trabalhistas",
+      descricao:
+        "Defendemos seus direitos trabalhistas com seriedade e resultados. Seja rescisão, horas extras ou justa causa, estamos prontos para lutar por você.",
+      imagem: carteira,
+      link: "https://wa.me/62996293233?text=Olá, quero informações sobre Direitos Trabalhistas.",
     },
   ];
 

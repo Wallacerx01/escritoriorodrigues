@@ -81,7 +81,7 @@ export function Atuacao() {
             <p className="font-medium text-center leading-relaxed text-gray-200">
               {area.texto}
             </p>
-            <div className="flex justify-center mt-8 b">
+            <div className="flex justify-center mt-8 ">
               <a
                 href={area.link}
                 target="_blank"
