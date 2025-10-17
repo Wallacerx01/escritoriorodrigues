@@ -10,22 +10,22 @@ export function Footer() {
             Serviços
           </h3>
           <ul className="flex flex-col gap-3 text-[15px] items-center md:items-start">
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300">
+            <li className="hover:scale-105 transition-all duration-300">
               <a href="#area">Direito Trabalhista</a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300">
+            <li className="hover:scale-105 transition-all duration-300">
               <a href="#area">Direito Previdenciário</a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300">
+            <li className="hover:scale-105 transition-all duration-300">
               <a href="#area">Direito Família</a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300">
+            <li className="hover:scale-105 transition-all duration-300">
               <a href="#area">Direito Consumidor</a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300">
+            <li className="hover:scale-105 transition-all duration-300">
               <a href="#area">Direito Criminalista</a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300">
+            <li className="hover:scale-105 transition-all duration-300">
               <a href="#area">Direito Civil</a>
             </li>
           </ul>
@@ -35,13 +35,13 @@ export function Footer() {
             Contato
           </h3>
           <ul className="flex flex-col gap-3 text-[15px] items-center md:items-start">
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300 flex justify-center items-center gap-1">
+            <li className="hover:scale-105 transition-all duration-300 flex justify-center items-center gap-1">
               <FaWhatsapp size={25} />
               <a href="https://wa.me/62996293233?text=Olá" target="_blank">
                 (62) 9 96293233
               </a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300 flex justify-center items-center gap-1">
+            <li className="hover:scale-105 transition-all duration-300 flex justify-center items-center gap-1">
               <FaWhatsapp size={25} />
               <a
                 href="https://wa.me/62994082732?text=Olá Dr Juliano"
@@ -50,7 +50,7 @@ export function Footer() {
                 (62) 9 94082732
               </a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300 flex justify-center items-center gap-1">
+            <li className="hover:scale-105 transition-all duration-300 flex justify-center items-center gap-1">
               <CgMail size={25} />
               <a
                 href="mailto:brunnarodrigues.adv@gmail.com?subject=Olá&body=Olá,%20gostaria%20de%20entrar%20em%20contato."
@@ -59,7 +59,7 @@ export function Footer() {
                 brunnarodrigues.adv@gmail.com
               </a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300 flex justify-center items-center gap-1">
+            <li className="hover:scale-105 transition-all duration-300 flex justify-center items-center gap-1">
               <CgMail size={25} />
               <a
                 href="mailto:julianorodrigues.adv@gmail.com?subject=Olá&body=Olá,%20gostaria%20de%20entrar%20em%20contato."
@@ -68,7 +68,7 @@ export function Footer() {
                 julianorodrigues.adv@gmail.com
               </a>
             </li>
-            <li className="hover:scale-105  hover:shadow-lg transition-all duration-300 flex justify-center items-center gap-1">
+            <li className="hover:scale-105 transition-all duration-300 flex justify-center items-center gap-1">
               <FaInstagram size={25} />
               <a
                 href="https://www.instagram.com/melquiadeserodrigues/"

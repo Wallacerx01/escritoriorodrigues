@@ -17,16 +17,16 @@ export function Header() {
       </a>
       <nav className="hidden md:block">
         <ul className="flex gap-10 font-medium text-white text-xl">
-          <li className="hover:text-[#DBDBDB] hover:scale-110  hover:shadow-lg transition-all duration-300">
+          <li className="hover:text-[#DBDBDB] hover:scale-110 transition-all duration-300">
             <a href="#inicio">Inicio</a>
           </li>
-          <li className="hover:text-[#DBDBDB] hover:scale-110  hover:shadow-lg transition-all duration-300">
+          <li className="hover:text-[#DBDBDB] hover:scale-110 transition-all duration-300">
             <a href="#area">Áreas de atuação</a>
           </li>
-          <li className="hover:text-[#DBDBDB] hover:scale-110  hover:shadow-lg transition-all duration-300">
+          <li className="hover:text-[#DBDBDB] hover:scale-110 transition-all duration-300">
             <a href="#sobre">Sobre</a>
           </li>
-          <li className="hover:text-[#DBDBDB] hover:scale-110  hover:shadow-lg transition-all duration-300">
+          <li className="hover:text-[#DBDBDB] hover:scale-110 transition-all duration-300">
             <a href="#footer">Contato</a>
           </li>
         </ul>
