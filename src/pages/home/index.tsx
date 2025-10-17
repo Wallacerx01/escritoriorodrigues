@@ -26,7 +26,7 @@ export function Home() {
       link: "https://wa.me/62996293233?text=Olá, quero saber sobre Pensão por Morte.",
     },
     {
-      titulo: "- Direito de Família- Pensão Alimentícia",
+      titulo: "Direito de Família - Pensão Alimentícia",
       descricao:
         "Se você precisa receber ou regularizar a pensão alimentícia, conte com uma orientação jurídica clara e eficiente.",
       imagem: pensaoAli,
@@ -108,25 +108,6 @@ export function Home() {
         className="bg-gradient-to-br from-[#1B263B] to-[#2C3E50] w-full min-h-[calc(100vh-160px)] flex items-center justify-center px-6 py-10"
       >
         <section className="flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl w-full gap-10">
-          {/* Texto fixo */}
-          <div className="md:w-1/2 text-center md:text-left space-y-6">
-            <h1 className="text-3xl md:text-4xl font-extrabold text-white leading-snug">
-              Melquiades & Rodrigues <br />
-              <span className="text-[#DBDBDB]">Advogados Associados</span>
-            </h1>
-
-            <p className="text-gray-200 text-base md:text-lg leading-relaxed">
-              Atuamos com excelência e compromisso na defesa dos direitos de
-              nossos clientes. Nossa equipe une experiência, ética e dedicação
-              para oferecer soluções jurídicas personalizadas e eficazes em
-              diversas áreas do Direito.
-              <br />
-              <br />
-              Conte conosco para representar seus interesses com
-              responsabilidade e transparência.
-            </p>
-          </div>
-
           {/* Carrossel responsivo */}
           <div className="md:w-1/2 w-full relative flex justify-center items-center">
             <AnimatePresence mode="wait">
@@ -176,6 +157,24 @@ export function Home() {
                 </div>
               </motion.section>
             </AnimatePresence>
+          </div>
+          {/* Texto fixo */}
+          <div className="md:w-1/2 text-center md:text-left space-y-6">
+            <h1 className="text-3xl md:text-4xl font-extrabold text-white leading-snug">
+              Melquiades & Rodrigues <br />
+              <span className="text-[#DBDBDB]">Advogados Associados</span>
+            </h1>
+
+            <p className="text-gray-200 text-base md:text-lg leading-relaxed">
+              Atuamos com excelência e compromisso na defesa dos direitos de
+              nossos clientes. Nossa equipe une experiência, ética e dedicação
+              para oferecer soluções jurídicas personalizadas e eficazes em
+              diversas áreas do Direito.
+              <br />
+              <br />
+              Conte conosco para representar seus interesses com
+              responsabilidade e transparência.
+            </p>
           </div>
         </section>
       </main>
